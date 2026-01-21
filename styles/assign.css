@@ -277,7 +277,7 @@ text-decoration: none;
     margin-top: 40px;
     margin-bottom: 100px;
     background-color: #F7F6F2;
-    padding: 80px 40px 80px 40px;
+    padding: 80px 40px;
     gap: 24px;
     border-radius: 12px;
 }
@@ -326,4 +326,50 @@ text-decoration: none;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
+}
+
+#footer{
+    margin-top: 120px;
+    height: 248px;
+    background-color: #001931;
+    padding: 120px 120px 30px 120px;
+    border-top: 1px;
+}
+
+#footer .footer-logo{
+   width: 139px;
+   height: 60px; 
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.social p{
+    width: 113px;
+    height: 28px; 
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.social i{
+    border-radius: 1000px;
+    color: #FFFFFF;
+}
+
+hr{
+  border: 1px dotted;
+  margin: 20px 0;
+}
+
+.copyright{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: #FAFAFA;
 }
